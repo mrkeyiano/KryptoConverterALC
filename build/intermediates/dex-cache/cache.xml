@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Mr Keyiano\Desktop\KryptoConvert\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Mr Keyiano\Desktop\KryptoConvert\KryptoConverterALC\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a75ec54c8143f2d219bf07a4da9bfaeec73b252">
+        <dex dex="C:\Users\Mr Keyiano\Desktop\KryptoConvert\KryptoConverterALC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_efb56eb3d82d15b8581a2e84cf6ef48d7577ef7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Mr Keyiano\Desktop\KryptoConvert\KryptoConverterALC\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\Mr Keyiano\Desktop\KryptoConvert\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2459ace3de3fab81b4d73ce4348694d2174a9a06\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Mr Keyiano\Desktop\KryptoConvert\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e7840d9d516494c2398c05a8ee5c4f533aa7b1fa">
-        <dex dex="C:\Users\Mr Keyiano\Desktop\KryptoConvert\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d5a1040b1a4f2f3f7edc6bd7c063fdf839fdcf40\classes.dex" />
+        <dex dex="C:\Users\Mr Keyiano\Desktop\KryptoConvert\KryptoConverterALC\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_dfdd7bda6c00f27f4c00c1aba2b8afa87b044eff\classes.dex" />
     </item>
 
 </items>

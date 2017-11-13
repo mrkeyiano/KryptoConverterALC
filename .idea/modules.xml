@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KryptoConvert.iml" filepath="$PROJECT_DIR$/KryptoConvert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KryptoConverterALC.iml" filepath="$PROJECT_DIR$/KryptoConverterALC.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
