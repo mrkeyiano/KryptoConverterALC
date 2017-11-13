@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Krypto Compare</string>
+    <string name="spinner_title">Drop Down</string>
+    <string name="no_internet">No Data Connection</string>
+    <string name="try_again">Unable To Refresh Exchange List</string>
+    <string name="bitcoin">BTC</string>
+    <string name="ether">ETH</string>
+    <string name="header_label">Krypto Compare</string>
+    <string name="alc">ALC 2.0</string>
+
+    <string-array name="local_currency_list">
+        <item>NGN</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>ZAR</item>
+        <item>AED</item>
+        <item>RUB</item>
+        <item>CNY</item>
+        <item>JPY</item>
+        <item>CFP</item>
+        <item>CHF</item>
+        <item>GHS</item>
+        <item>AUD</item>
+        <item>ARS</item>
+        <item>BRL</item>
+        <item>INR</item>
+        <item>CAD</item>
+        <item>BND</item>
+        <item>DKK</item>
+        <item>SAR</item>
+        <item>SGD</item>
+    </string-array>
+</resources>

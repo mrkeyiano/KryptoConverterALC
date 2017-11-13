@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="380dp"
+    android:background="@color/c_background_color"
+    android:orientation="vertical"
+    tools:context="com.example.android.currencyconverter.ConversionActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.57"
+        android:background="@color/upperh"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:padding="8dp"
+            android:text="Local Currency"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttons"
+            android:layout_gravity="center"
+            android:entries="@array/local_currency_list"
+            android:padding="16dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.10"
+        android:background="@color/lowerh"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:padding="8dp"
+            android:text="Base Currency"
+            android:textColor="@color/upperh"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <Button
+                android:id="@+id/select_btc"
+                android:layout_width="wrap_content"
+                android:layout_height="73dp"
+                android:background="@color/upperh"
+                android:text="BTC" />
+
+            <Button
+                android:id="@+id/select_eth"
+                android:layout_width="wrap_content"
+                android:layout_height="73dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/c_background_color"
+                android:text="ETH" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/cancel"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toStartOf="@+id/linearLayout2"
+            android:padding="16dp"
+            android:src="@drawable/ic_cancel" />
+
+        <ImageButton
+            android:id="@+id/submit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:padding="16dp"
+            android:src="@drawable/ic_ok" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/linearLayout2">
+
+            <TextView
+                android:id="@+id/select_base"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                tools:text="AED" />
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/exchange" />
+
+            <TextView
+                android:id="@+id/select_local"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                tools:text="BTC" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
